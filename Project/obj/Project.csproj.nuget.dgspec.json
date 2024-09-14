@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ПРОГРАММИРОВАНИЕ\\7 семак\\Проектный практикум - GIT\\Project\\Project.csproj": {}
+    "C:\\ПРОГРАММИРОВАНИЕ\\7 семак\\Abranov-Kirill-KT-41-21\\Project\\Project.csproj": {}
   },
   "projects": {
-    "C:\\ПРОГРАММИРОВАНИЕ\\7 семак\\Проектный практикум - GIT\\Project\\Project.csproj": {
+    "C:\\ПРОГРАММИРОВАНИЕ\\7 семак\\Abranov-Kirill-KT-41-21\\Project\\Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ПРОГРАММИРОВАНИЕ\\7 семак\\Проектный практикум - GIT\\Project\\Project.csproj",
+        "projectUniqueName": "C:\\ПРОГРАММИРОВАНИЕ\\7 семак\\Abranov-Kirill-KT-41-21\\Project\\Project.csproj",
         "projectName": "Project",
-        "projectPath": "C:\\ПРОГРАММИРОВАНИЕ\\7 семак\\Проектный практикум - GIT\\Project\\Project.csproj",
+        "projectPath": "C:\\ПРОГРАММИРОВАНИЕ\\7 семак\\Abranov-Kirill-KT-41-21\\Project\\Project.csproj",
         "packagesPath": "C:\\Users\\thepa\\.nuget\\packages\\",
-        "outputPath": "C:\\ПРОГРАММИРОВАНИЕ\\7 семак\\Проектный практикум - GIT\\Project\\obj\\",
+        "outputPath": "C:\\ПРОГРАММИРОВАНИЕ\\7 семак\\Abranov-Kirill-KT-41-21\\Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.13, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
