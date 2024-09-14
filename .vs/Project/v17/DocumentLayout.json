@@ -26,17 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\7 \u0441\u0435\u043C\u0430\u043A\\Abranov-Kirill-KT-41-21\\Project\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Project\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\7 \u0441\u0435\u043C\u0430\u043A\\Abranov-Kirill-KT-41-21\\Project\\Controllers\\WeatherForecastController.cs*",
-              "RelativeToolTip": "Project\\Controllers\\WeatherForecastController.cs*",
-              "ViewState": "AQIAABUAAABwMzMzMzM/wCcAAAAYAAAA",
+              "ToolTip": "C:\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\7 \u0441\u0435\u043C\u0430\u043A\\Abranov-Kirill-KT-41-21\\Project\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Project\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-14T07:38:02.7Z",
               "EditorCaption": ""
@@ -47,8 +51,8 @@
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\7 \u0441\u0435\u043C\u0430\u043A\\Abranov-Kirill-KT-41-21\\Project\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Project\\appsettings.Development.json",
-              "ToolTip": "C:\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\7 \u0441\u0435\u043C\u0430\u043A\\Abranov-Kirill-KT-41-21\\Project\\appsettings.Development.json*",
-              "RelativeToolTip": "Project\\appsettings.Development.json*",
+              "ToolTip": "C:\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\7 \u0441\u0435\u043C\u0430\u043A\\Abranov-Kirill-KT-41-21\\Project\\appsettings.Development.json",
+              "RelativeToolTip": "Project\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-14T07:33:17.547Z",
@@ -60,8 +64,8 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\7 \u0441\u0435\u043C\u0430\u043A\\Abranov-Kirill-KT-41-21\\Project\\Program.cs",
               "RelativeDocumentMoniker": "Project\\Program.cs",
-              "ToolTip": "C:\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\7 \u0441\u0435\u043C\u0430\u043A\\Abranov-Kirill-KT-41-21\\Project\\Program.cs*",
-              "RelativeToolTip": "Project\\Program.cs*",
+              "ToolTip": "C:\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\7 \u0441\u0435\u043C\u0430\u043A\\Abranov-Kirill-KT-41-21\\Project\\Program.cs",
+              "RelativeToolTip": "Project\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-14T07:12:28.65Z",
