@@ -396,3 +396,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/.vs/Project/v17/.suo
+/.vs/Project/v17/DocumentLayout.json
