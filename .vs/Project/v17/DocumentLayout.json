@@ -5,18 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7B4563EE-A8F1-4DD4-8AD8-7742A666BFF2}|Project\\Project.csproj|c:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\7 \u0441\u0435\u043C\u0430\u043A\\abranov-kirill-kt-41-21\\project\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B4563EE-A8F1-4DD4-8AD8-7742A666BFF2}|Project\\Project.csproj|solutionrelative:project\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B4563EE-A8F1-4DD4-8AD8-7742A666BFF2}|Project\\Project.csproj|c:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\7 \u0441\u0435\u043C\u0430\u043A\\abranov-kirill-kt-41-21\\project\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B4563EE-A8F1-4DD4-8AD8-7742A666BFF2}|Project\\Project.csproj|solutionrelative:project\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B4563EE-A8F1-4DD4-8AD8-7742A666BFF2}|Project\\Project.csproj|c:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\7 \u0441\u0435\u043C\u0430\u043A\\abranov-kirill-kt-41-21\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B4563EE-A8F1-4DD4-8AD8-7742A666BFF2}|Project\\Project.csproj|solutionrelative:project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B4563EE-A8F1-4DD4-8AD8-7742A666BFF2}|Project\\Project.csproj|c:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\7 \u0441\u0435\u043C\u0430\u043A\\abranov-kirill-kt-41-21\\project\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7B4563EE-A8F1-4DD4-8AD8-7742A666BFF2}|Project\\Project.csproj|solutionrelative:project\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,12 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,48 +24,9 @@
               "RelativeDocumentMoniker": "Project\\Controllers\\WeatherForecastController.cs",
               "ToolTip": "C:\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\7 \u0441\u0435\u043C\u0430\u043A\\Abranov-Kirill-KT-41-21\\Project\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "Project\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAkAAAA",
+              "ViewState": "AQIAAA8AAABwZmZmZiYwwCEAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-14T07:38:02.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\7 \u0441\u0435\u043C\u0430\u043A\\Abranov-Kirill-KT-41-21\\Project\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Project\\appsettings.Development.json",
-              "ToolTip": "C:\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\7 \u0441\u0435\u043C\u0430\u043A\\Abranov-Kirill-KT-41-21\\Project\\appsettings.Development.json",
-              "RelativeToolTip": "Project\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-14T07:33:17.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\7 \u0441\u0435\u043C\u0430\u043A\\Abranov-Kirill-KT-41-21\\Project\\Program.cs",
-              "RelativeDocumentMoniker": "Project\\Program.cs",
-              "ToolTip": "C:\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\7 \u0441\u0435\u043C\u0430\u043A\\Abranov-Kirill-KT-41-21\\Project\\Program.cs",
-              "RelativeToolTip": "Project\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T07:12:28.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\7 \u0441\u0435\u043C\u0430\u043A\\Abranov-Kirill-KT-41-21\\Project\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "Project\\WeatherForecast.cs",
-              "ToolTip": "C:\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\7 \u0441\u0435\u043C\u0430\u043A\\Abranov-Kirill-KT-41-21\\Project\\WeatherForecast.cs",
-              "RelativeToolTip": "Project\\WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T07:12:23.175Z",
               "EditorCaption": ""
             }
           ]
