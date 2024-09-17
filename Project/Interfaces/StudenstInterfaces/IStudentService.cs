@@ -8,6 +8,10 @@ namespace Project.Interfaces.StudenstInterfaces
     public interface IStudentService
     {
         public Task<Student[]> GetStudentsByGroupAsync(StudentGroupFilter filter, CancellationToken cancellationToken);
+
+        public Task<Student[]> GetStudentsByNameAsync(StudentNameFilter filter, CancellationToken cancellationToken);
+
+        public Task<Student[]> GetDeletedStudentsAsync(StudentDeleteFilter filter, CancellationToken cancellationToken);
     }
 
     public class StudentService : IStudentService
@@ -20,6 +24,20 @@ namespace Project.Interfaces.StudenstInterfaces
         public Task<Student[]> GetStudentsByGroupAsync(StudentGroupFilter filter, CancellationToken cancellationToken = default)
         {
             var students = _dbContext.Set<Student>().Where(w => w.Group.GroupName == filter.GroupName).ToArrayAsync(cancellationToken);
+
+            return students;
+        }
+
+        public Task<Student[]> GetStudentsByNameAsync(StudentNameFilter filter, CancellationToken cancellationToken = default)
+        {
+            var students = _dbContext.Set<Student>().Where(w => w.FirstName == filter.Name).ToArrayAsync(cancellationToken);
+
+            return students;
+        }
+
+        public Task<Student[]> GetDeletedStudentsAsync(StudentDeleteFilter filter, CancellationToken cancellationToken)
+        {
+            var students = _dbContext.Set<Student>().Where(w => w.IsDeleted == filter.IsDelete).ToArrayAsync(cancellationToken);
 
             return students;
         }

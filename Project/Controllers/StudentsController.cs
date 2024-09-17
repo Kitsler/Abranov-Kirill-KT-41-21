@@ -24,5 +24,21 @@ namespace Project.Controllers
 
             return Ok(students);
         }
+
+        [HttpPost("GetStudentsByName")]
+        public async Task<IActionResult> GetStudentsByName(StudentNameFilter filter, CancellationToken cancellationToken = default)
+        {
+            var students = await _studentService.GetStudentsByNameAsync(filter, cancellationToken);
+
+            return Ok(students);
+        }
+
+        [HttpPost("GetDeletedStudent")]
+        public async Task<IActionResult> GetDeletedStudentsAsync(StudentDeleteFilter filter, CancellationToken cancellationToken = default)
+        {
+            var students = await _studentService.GetDeletedStudentsAsync(filter, cancellationToken);
+
+            return Ok(students);
+        }
     }
 }
