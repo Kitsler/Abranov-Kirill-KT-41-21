@@ -1,8 +1,10 @@
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.EntityFrameworkCore;
 using NLog;
 using NLog.Web;
 using Project.DataBase;
 using Project.ServiceExtensions;
+using ExceptionHandlerMiddleware = Project.Middlewares.ExceptionHandlerMiddleware;
 
 var builder = WebApplication.CreateBuilder(args);
 var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
@@ -28,6 +30,8 @@ try
 		app.UseSwagger();
 		app.UseSwaggerUI();
 	}
+
+    app.UseMiddleware<ExceptionHandlerMiddleware>();
 
 	app.UseAuthorization();
 
