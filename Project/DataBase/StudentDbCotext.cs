@@ -6,9 +6,9 @@ namespace Project.DataBase
 {
 	public class StudentDbCotext : DbContext
 	{
-		DbSet<Student> students {  get; set; }
-		DbSet<Group> groups {  get; set; }
-		DbSet<Discipline> disciplines { get; set; }
+		public DbSet<Student> students {  get; set; }
+		public DbSet<Group> groups {  get; set; }
+		public DbSet<Discipline> disciplines { get; set; }
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
