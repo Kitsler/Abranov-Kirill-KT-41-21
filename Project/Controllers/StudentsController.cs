@@ -65,7 +65,15 @@ namespace Project.Controllers
             return Ok(students);
         }
 
-        [HttpPost("GetStudentsByName")]
+		[HttpPost("GetStudentsByGroupId")]
+		public async Task<IActionResult> GetStudentsByGroupIdAsync(StudentGroupIdFilter filter, CancellationToken cancellationToken = default)
+		{
+			var students = await _studentService.GetStudentByGroupIdAsync(filter, cancellationToken);
+
+			return Ok(students);
+		}
+
+		[HttpPost("GetStudentsByName")]
         public async Task<IActionResult> GetStudentsByName(StudentNameFilter filter, CancellationToken cancellationToken = default)
         {
             var students = await _studentService.GetStudentsByNameAsync(filter, cancellationToken);

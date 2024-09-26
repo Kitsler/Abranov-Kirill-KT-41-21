@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using NLog.Filters;
 using Project.DataBase;
 using Project.Filters.StudentFilters;
 using Project.Models;
@@ -16,6 +17,7 @@ namespace Project.Interfaces.StudenstInterfaces
         public Task<Student> StudentUpdate(StudentUpdateFilter filter, CancellationToken cancellationToken);
 
         public Task<Student> StudentDelete(StudentIdFilter filter, CancellationToken cancellationToken);
+        public Task<Student[]> GetStudentByGroupIdAsync(StudentGroupIdFilter filter, CancellationToken cancellationToken);
     }
 
     public class StudentService : IStudentService
@@ -26,7 +28,14 @@ namespace Project.Interfaces.StudenstInterfaces
             _dbContext = dbContext;
         }
 
-        public Task<Student[]> GetStudentsByGroupAsync(StudentGroupFilter filter, CancellationToken cancellationToken = default)
+		public Task<Student[]> GetStudentByGroupIdAsync(StudentGroupIdFilter filter, CancellationToken cancellationToken)
+        {
+			var students = _dbContext.Set<Student>().Where(w => w.Group.GroupId == filter.GroupId).ToArrayAsync(cancellationToken);
+
+            return students;
+		}
+
+		public Task<Student[]> GetStudentsByGroupAsync(StudentGroupFilter filter, CancellationToken cancellationToken = default)
         {
             var students = _dbContext.Set<Student>().Where(w => w.Group.GroupName == filter.GroupName).ToArrayAsync(cancellationToken);
 
@@ -35,7 +44,7 @@ namespace Project.Interfaces.StudenstInterfaces
 
         public Task<Student[]> GetStudentsByNameAsync(StudentNameFilter filter, CancellationToken cancellationToken = default)
         {
-            var students = _dbContext.Set<Student>().Where(w => w.FirstName == filter.Name).ToArrayAsync(cancellationToken);
+            var students = _dbContext.Set<Student>().Where(w => w.LastName == filter.Name).ToArrayAsync(cancellationToken);
 
             return students;
         }
